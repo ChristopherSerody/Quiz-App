@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+    <script src="https://use.fontawesome.com/edf95abece.js"></script>
+    
+    <style type="text/css">
+    
+        body {
+            overflow-x:hidden;
+            position:relative;
+        }
+        
+        .navbar {
+            font-weight:500;
+        }
+        
+        #home {
+            text-align:center;
+            height:500px;
+            background:url("techblue.jpg");
+            background-size:100%;;
+            color:white;  
+            padding-top:100px;
+        }
+        
+        #homeTitle {
+            font-size:50px;
+        }
+        
+        #formdiv button {
+            width:300px;
+            margin:auto;
+        }
+        
+        #exampleInputEmail1 {
+            width:200px;
+        }
+        
+        #info {
+            font-weight:700;
+            text-align:center;
+            padding-top:20px;
+        }
+        
+        .card-group {
+            margin-top:40px;
+        }
+        
+        #info h3 {
+            margin-top:20px;
+        }
+        
+        #info p {
+            margin-top:20px;
+        }
+        
+        .card-img-top {
+            margin-right:auto;
+            margin-left:auto;
+            margin-top:20px;
+            height:50%;
+            width:50%;
+            
+        }
+        
+        .fa {
+            display:inline;
+            float:left;
+            position:absolute;
+            left:25%;
+            top:60%;
+        }
+        
+        .card p {
+            font-weight:400;
+        }
+        
+        #download {
+            height:700px;
+            background-color:turquoise;
+            text-align:center;
+            padding-top:100px;
+        }
+        
+        #appIcon {
+            margin-top:20px;
+            margin-bottom:40px;
+        }
+        
+    </style>
+    
+  </head>
+  
+  <body data-spy="scroll" data-target="#navScrollspy" data-offset="100">
+    <nav id="navbar-example" class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">My Quiz Game</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="nav nav-pills mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#info">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#download">Download the Game</a>
+          </li>
+      </div>
+    </nav>
+    
+    <div id="home">
+        <h1 id="homeTitle">My Quiz Game!</h1>
+        <h5>This is the most engrossing game on the entire internet!</h5>
+        <p>Want to know more?  Join our mailing list!</p>
+        
+        <div id="formdiv" class="row"></div>
+            <div class="offset-sm-4 col-sm-4">
+                <form class="input-group">
+                    <span class="input-group-addon" id="basic-addon1">@</span>
+                    <label for="exampleInputEmail1"></label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your email">
+                    <button type="submit" class="btn btn-primary">Sign up</button>
+                </form>
+            </div>
+        </div>
+    </div>
+        
+    <div id="info">
+        <h3>What It Is</h3>
+        <p>The game pulls a random question for you to answer</p>
+        
+        <div class="card-group">
+          <div class="card">
+            <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Wikipedia-logo-v2-en.svg/2000px-Wikipedia-logo-v2-en.svg.png" alt="Wikipedia Logo">
+            <div class="card-body">
+              <i class="fa fa-wikipedia-w" aria-hidden="true"></i>
+              <h4 class="card-title">What It Does</h4>
+              <p class="card-text">The game accesses a random Wikipedia page and asks the user to identify the subject of the page based on a hint.</p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="https://cdn.dribbble.com/users/587730/screenshots/2579317/levelup1_1x.png" alt="Card image cap">
+            <div class="card-body">
+              <i class="fa fa-arrow-up" aria-hidden="true"></i>
+              <h4 class="card-title">Levelling Up</h4>
+              <p class="card-text">As you answer more questions correctly, the app accesses increasingly rarely cited pages so the questions get harder.</p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="https://uploads.toptal.io/blog/image/443/toptal-blog-image-1407508081138.png" alt="Card image cap">
+            <div class="card-body">
+              <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+              <h4 class="card-title">How It Works</h4>
+              <p class="card-text">The game uses machine learning to find new questions based on the difficulty of the questions you have previously answered.</p>
+            </div>
+          </div>
+        </div>
+    </div>
+    
+    <div id="download">
+        <h1>Download the Game!</h1>
+        <a href="http://LandingPageURL.com">
+            <img id="appIcon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Download_on_the_App_Store_Badge.svg/203px-Download_on_the_App_Store_Badge.svg.png" alt="App Store Icon">
+        </a>
+        
+        <p>*As this is just a demo page, this app is not actually real, so you cannot download it from the app store or anywhere else.
+            Follow my coding progress, though and hopefully an operational version will be available soon!
+        </p>
+    </div>
+    
+  </body>
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+      
+    <script type="text/javascript">
+            
+        $('body').scrollspy({ target: '#navbar-example' })
+ 
+    </script>
+  
+  </body>
+</html>
